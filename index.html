@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome to My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Meeral</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        h1 {
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello! I'm Meeral</h1>
-    <p>My portfolio is under construction. Stay tuned!</p>
+    <div class="container">
+        <div class="card">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Meeral — passionate about teaching, technology, and empowering students!</p>
+        </div>
+        <div class="card">
+            <h2>About Me</h2>
+            <p>Passionate Educator | Scholarly Researcher | Academic Mentor</p>
+            <p>Dedicated IT professional in teaching and assessment creation. Demonstrated ability to deliver engaging IT lessons through student-centered learning, active participation, and inclusive education practices. Skilled in creating supportive classroom environments where every student feels valued, supported, and motivated to succeed. Proficient in leveraging technology platforms such as Microsoft Office to enhance learning outcomes.</p>
+        </div>
+        <div class="card">
+            <h2>Projects</h2>
+            <p>Coming soon... Stay tuned!</p>
+        </div>
+        <div class="card">
+            <h2>Contact Me</h2>
+            <p>Email: your-email@example.com</p>
+            <p>GitHub: <a href="https://github.com/Nagoor-Meeral" target="_blank" style="color: #4facfe;">Nagoor-Meeral</a></p>
+        </div>
+    </div>
 </body>
 </html>
